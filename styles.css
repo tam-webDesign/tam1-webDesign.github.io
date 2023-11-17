@@ -1,0 +1,12 @@
+ul {
+    list-style-type:none;
+    margin: 0px;
+    padding: 10px;
+    background-color: gray;
+}
+li {
+    display: inline;
+}
+.title {
+    color: blue;
+}
