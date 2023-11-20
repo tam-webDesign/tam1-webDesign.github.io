@@ -1,12 +1,69 @@
 ul {
     list-style-type:none;
-    margin: 0px;
+    margin: 0px 0px 10px 0px;
     padding: 10px;
     background-color: gray;
+}
+#Home, #About, #News, #Contact {
+    margin: 30px;
+    color: yellow;
+    font-size: 25px;
+}
+a:link {
+  color: yellow;
+  background-color: transparent;
+    text-decoration: underline;
+}
+a:visited {
+  color: yellow;
+  background-color: transparent;
+    text-decoration: underline;}
+
+body {
+    background-color: lightskyblue;
 }
 li {
     display: inline;
 }
 .title {
-    color: blue;
+    color: darkorange;
+    margin-left: 4px;
+    font-size: 50px;
+}
+#sub1 {
+    margin-left: 2px;
+}
+.intro, .para2, .para3, .para4 {
+    width: 50%;
+    font-size: 25px;
+    margin-left: 8px;
+}
+.table1, .table2 {
+    flex-wrap: wrap; 
+    float: right; 
+    width: 10%;
+    border: 5px solid orange;
+}
+h3 {
+    color: darkorange;
+    text-decoration: underline;
+}
+p {
+    color: white;
+}
+.final {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    background-color: gray;
+}
+
+span {
+    color: yellow; 
+    font-size: 25px;
+    margin-left: 8px;
+    
+}
+#page {
+    color: yellow;
 }
